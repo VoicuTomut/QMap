@@ -20,7 +20,6 @@ def clasic_Brut(poz):
     '''
     nr_places=len(poz)
 
-    R = 6371e3
     w=np.zeros((nr_places,nr_places))
     for i in range (nr_places):
         for j in range(i+1,nr_places):
