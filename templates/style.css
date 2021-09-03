@@ -1,0 +1,10 @@
+#side_bar {
+  font-family:Roboto;
+  text-decoration:none;
+  color:black;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
